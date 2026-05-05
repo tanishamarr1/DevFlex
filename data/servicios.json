@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "💻",
+    "title": "Desarrollo Web Full-Stack",
+    "description": "Aplicaciones web completas con tecnologías modernas y arquitectura escalable para tu crecimiento empresarial."
+  },
+  {
+    "icon": "📱",
+    "title": "Aplicaciones Móviles",
+    "description": "Apps nativas y multiplataforma que ofrecen experiencias excepcionales en iOS y Android."
+  },
+  {
+    "icon": "🤖",
+    "title": "Soluciones con IA",
+    "description": "Chatbots inteligentes y automatización con IA para optimizar procesos y mejorar la atención al cliente."
+  },
+  {
+    "icon": "🛒",
+    "title": "Desarrollo Shopify",
+    "description": "Tiendas online personalizadas que elevan tu experiencia de eCommerce y maximizan las ventas."
+  }
+]
