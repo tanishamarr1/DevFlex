@@ -1,22 +1,22 @@
 [
   {
     "icon": "💻",
-    "title": "Desarrollo Web Full-Stack",
-    "description": "Aplicaciones web completas con tecnologías modernas y arquitectura escalable para tu crecimiento empresarial."
+    "title": "Full-Stack Web Development",
+    "description": "Complete web applications with modern technologies and scalable architecture for your business growth."
   },
   {
     "icon": "📱",
-    "title": "Aplicaciones Móviles",
-    "description": "Apps nativas y multiplataforma que ofrecen experiencias excepcionales en iOS y Android."
+    "title": "Mobile Applications",
+    "description": "Native and cross-platform apps that offer exceptional experiences on iOS and Android."
   },
   {
     "icon": "🤖",
-    "title": "Soluciones con IA",
-    "description": "Chatbots inteligentes y automatización con IA para optimizar procesos y mejorar la atención al cliente."
+    "title": "AI Solutions",
+    "description": "Intelligent chatbots and AI automation to optimize processes and improve customer service."
   },
   {
     "icon": "🛒",
-    "title": "Desarrollo Shopify",
-    "description": "Tiendas online personalizadas que elevan tu experiencia de eCommerce y maximizan las ventas."
+    "title": "Shopify Development",
+    "description": "Custom online stores that elevate your eCommerce experience and maximize sales."
   }
 ]

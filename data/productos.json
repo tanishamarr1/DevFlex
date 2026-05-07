@@ -1,73 +1,26 @@
 [
   {
-    "type": "featured",
-    "icon": "$",
-    "title": "Sellvera",
-    "badge": "Featured",
-    "subtitle": "Sistema POS Completo",
-    "description": "Revoluciona tu negocio con Sellvera, nuestro sistema POS inteligente que integra ventas, inventario, análisis y gestión de clientes en una sola plataforma.",
-    "features": [
-      {
-        "icon": "💳",
-        "title": "Pagos Integrados",
-        "description": "Acepta todos los métodos de pago"
-      },
-      {
-        "icon": "📊",
-        "title": "Analytics Avanzados",
-        "description": "Reportes en tiempo real y métricas clave"
-      },
-      {
-        "icon": "📱",
-        "title": "Multi-dispositivo",
-        "description": "Funciona en tablets, móviles y PCs"
-      },
-      {
-        "icon": "☁️",
-        "title": "Cloud Sync",
-        "description": "Sincronización automática en la nube"
-      }
-    ],
-    "primaryAction": { "text": "Solicitar a Sellvera", "link": "#contacto" },
-    "secondaryAction": { "text": "Ver Características", "link": "#" }
-  },
-  {
-    "type": "featured",
-    "icon": "📦",
-    "title": "Logistix Pro",
-    "badge": "Nuevo",
-    "subtitle": "Gestión de Inventario y Envíos",
-    "description": "Optimiza tu cadena de suministro con Logistix Pro. Control total sobre entradas, salidas, alertas de stock bajo y seguimiento de rutas en tiempo real.",
-    "features": [
-      {
-        "icon": "🔍",
-        "title": "Rastreo Inteligente",
-        "description": "Seguimiento GPS y estado de pedidos"
-      },
-      {
-        "icon": "📉",
-        "title": "Stock Predictivo",
-        "description": "IA que predice cuándo reabastecer inventario"
-      },
-      {
-        "icon": "🏷️",
-        "title": "Escaneo de QR/Bar",
-        "description": "Compatible con cualquier escáner físico"
-      },
-      {
-        "icon": "🤝",
-        "title": "Portal de Proveedores",
-        "description": "Gestión directa de órdenes de compra"
-      }
-    ],
-    "primaryAction": { "text": "Probar Gratis", "link": "#demo" },
-    "secondaryAction": { "text": "Ver Planes", "link": "#precios" }
-},
-  {
+    "category": "digital",
     "type": "coming-soon",
     "icon": "🚀",
-    "title": "Próximamente",
-    "description": "Estamos desarrollando nuevos productos innovadores que transformarán tu experiencia digital.",
-    "action": { "text": "Notificarme", "link": "#contacto" }
+    "title": "Coming Soon",
+    "description": "We are developing innovative new products that will transform your digital experience.",
+    "action": { "text": "Notify Me", "link": "contact.html" }
+  },
+  {
+    "category": "microservices",
+    "type": "coming-soon",
+    "icon": "🚀",
+    "title": "Coming Soon",
+    "description": "We are developing innovative new products that will transform your digital experience.",
+    "action": { "text": "Notify Me", "link": "contact.html" }
+  },
+  {
+    "category": "apps",
+    "type": "coming-soon",
+    "icon": "🚀",
+    "title": "Coming Soon",
+    "description": "We are developing innovative new products that will transform your digital experience.",
+    "action": { "text": "Notify Me", "link": "contact.html" }
   }
 ]

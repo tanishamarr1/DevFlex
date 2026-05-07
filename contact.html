@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DevFlex Solutions</title>
+    <link rel="icon" type="image/x-icon" href="assets/DEVFLEX LOGO.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">DevFlex</div>
+            <ul class="nav-links">
+                <!-- Los enlaces ahora apuntan al index.html para regresar a la página principal -->
+                <li><a href="index.html#inicio">Home</a></li>
+                <li><a href="index.html#productos">Products</a></li>
+                <li><a href="index.html#servicios">Services</a></li>
+                <li><a href="index.html#nosotros">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Añadimos un padding-top extra para que el header fijo no tape el título -->
+        <section id="contacto" class="contact" style="padding-top: 10rem; min-height: calc(100vh - 150px);">
+            <div class="contact-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Reach out for collaborations, build your product from scratch, extra information about our products, or any other business inquiries.</p>
+
+                <form class="contact-form animate-on-scroll" action="https://formsubmit.co/enmanuel02bnunez@gmail.com"
+                    method="POST" target="hidden_iframe">
+                    <!-- FormSubmit configuration -->
+                    <input type="hidden" name="_subject" value="New Business Inquiry - DevFlex Solutions">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="_honey" style="display:none">
+
+                    <div class="form-group">
+                        <label for="nombre">Name</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="numero">Phone Number</label>
+                        <input type="tel" id="numero" name="numero" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Type here all the information.</label>
+                        <textarea id="mensaje" name="mensaje" rows="6" required placeholder="How can we help you?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <iframe name="hidden_iframe" style="display:none;"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com/devflex__" aria-label="Instagram">📷</a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">💼</a>
+            <a href="https://github.com/srhustle" aria-label="GitHub">⚡</a>
+        </div>
+        <p>&copy; 2025 DevFlex Solutions. All rights reserved.</p>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

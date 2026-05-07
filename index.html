@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -14,11 +14,11 @@
         <nav>
             <div class="logo">DevFlex</div>
             <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#productos">Productos</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#productos">Products</a></li>
+                <li><a href="#servicios">Services</a></li>
+                <li><a href="#nosotros">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="menu-toggle">
                 <span></span>
@@ -31,28 +31,42 @@
     <main>
         <section id="inicio" class="hero">
             <div class="hero-content">
-                <h1>Soluciones Digitales Personalizadas</h1>
-                <p>Especializados en desarrollo web full-stack, software a medida, aplicaciones dinámicas y soluciones
-                    de chatbots inteligentes con IA</p>
+                <h1>Personalized Digital Solutions</h1>
+                <p>Specializing in full-stack web development, 
+                    custom software, dynamic applications, microservices, and intelligent AI chatbot solutions</p>
                 <div class="cta-buttons">
-                    <a href="#contacto" class="btn btn-primary">Comenzar Proyecto</a>
-                    <a href="#productos" class="btn btn-secondary">Ver Productos</a>
+                    <a href="contact.html" class="btn btn-primary">Start Project</a>
+                    <a href="#productos" class="btn btn-secondary">View Products</a>
                 </div>
             </div>
         </section>
 
         <section id="productos" class="products">
-            <h2 class="section-title">Nuestros Productos</h2>
-            <p class="section-subtitle">Soluciones completas diseñadas para potenciar tu negocio</p>
+            <h2 class="section-title">Products</h2>
+            <p class="section-subtitle">Complete solutions designed to boost your business</p>
 
-            <div class="products-container" id="products-container">
-                <!-- Los productos se cargarán dinámicamente desde JavaScript -->
+            <div class="product-category" style="margin-bottom: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.8rem;">Digital Products</h3>
+                <div class="products-container" id="products-digital">
+                </div>
+            </div>
+
+            <div class="product-category" style="margin-bottom: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.8rem;">Microservices</h3>
+                <div class="products-container" id="products-microservices">
+                </div>
+            </div>
+
+            <div class="product-category">
+                <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.8rem;">Applications</h3>
+                <div class="products-container" id="products-apps">
+                </div>
             </div>
         </section>
 
         <section id="servicios" class="services">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <p class="section-subtitle">Soluciones tecnológicas que impulsan tu negocio hacia el futuro</p>
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Technological solutions that propel your business into the future</p>
 
             <div class="services-grid" id="services-grid">
                 <!-- Las tarjetas se cargarán dinámicamente desde JavaScript -->
@@ -62,51 +76,65 @@
         <section id="nosotros" class="about">
             <div class="about-container">
                 <div class="about-content animate-on-scroll">
-                    <h2>Innovación y Precisión</h2>
-                    <p>En DevFlex Solutions, nos especializamos en crear experiencias digitales vanguardistas que
-                        transforman negocios. Con nuestro enfoque en la innovación y la precisión, ayudamos a las
-                        empresas a prosperar en el panorama digital en constante evolución.</p>
-                    <p>Nuestro compromiso es simple: ser tu socio tecnológico y trabajar juntos en tu gran idea con todo
-                        el compromiso necesario para hacerla realidad.</p>
-                    <a href="#contacto" class="btn btn-primary">Trabajar Juntos</a>
+                    <h2>Innovation and Precision</h2>
+                    <p>At DevFlex Solutions, we specialize in creating avant-garde digital experiences that
+                        transform businesses. With our focus on innovation and precision, we help companies
+                        thrive in the ever-evolving digital landscape.</p>
+                    <p>Our commitment is simple: to be your technological partner and work together on your big idea
+                        with all the dedication needed to make it a reality.</p>
+                    <a href="contact.html" class="btn btn-primary">Work Together</a>
                 </div>
 
-                <div class="stats animate-on-scroll">
+                <!-- <div class="stats animate-on-scroll">
                     <div class="stat-item">
                         <div class="stat-number">100+</div>
-                        <div class="stat-label">Proyectos Completados</div>
+                        <div class="stat-label">Completed Projects</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">50+</div>
-                        <div class="stat-label">Clientes Satisfechos</div>
+                        <div class="stat-label">Satisfied Clients</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">24/7</div>
-                        <div class="stat-label">Soporte Técnico</div>
+                        <div class="stat-label">Technical Support</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">5+</div>
-                        <div class="stat-label">Años de Experiencia</div>
+                        <div class="stat-label">Years of Experience</div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
-        <section id="contacto" class="contact">
+        <section class="cta-banner" style="padding: 6rem 2rem 2rem; background: var(--dark-bg); text-align: center;">
+            <div style="max-width: 900px; margin: 0 auto; background: var(--gradient-secondary); padding: 4rem 2rem; border-radius: 25px; border: 1px solid rgba(0, 255, 136, 0.2); position: relative; overflow: hidden;" class="animate-on-scroll">
+                <!-- Efecto de brillo de fondo -->
+                <div style="position: absolute; top: -50%; left: 50%; transform: translateX(-50%); width: 300px; height: 300px; background: radial-gradient(circle, rgba(0, 255, 136, 0.15) 0%, transparent 70%); z-index: 0;"></div>
+                
+                <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 0.5rem; color: var(--text-primary); position: relative; z-index: 1;">Get in touch</h2>
+                <h3 style="font-size: 1.6rem; color: var(--primary-color); margin-bottom: 1.5rem; font-weight: 600; position: relative; z-index: 1;">Want to work together?</h3>
+                <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6; position: relative; z-index: 1;">
+                    Whether you need an app built from scratch or help with an existing project, I can help make it happen.
+                </p>
+                <a href="contact.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2rem; position: relative; z-index: 1;">Get Started &rarr;</a>
+            </div>
+        </section>
+
+        <!-- <section id="contacto" class="contact">
             <div class="contact-container">
-                <h2 class="section-title">¿Listo para comenzar?</h2>
-                <p class="section-subtitle">Cuéntanos sobre tu proyecto y transformemos tu idea en realidad</p>
+                <h2 class="section-title">Ready to start?</h2>
+                <p class="section-subtitle">Tell us about your project and let's turn your idea into reality</p>
 
                 <form class="contact-form animate-on-scroll" action="https://formsubmit.co/enmanuel02bnunez@gmail.com"
                     method="POST" target="hidden_iframe">
-                    <!-- FormSubmit configuration -->
-                    <input type="hidden" name="_subject" value="Nuevo mensaje de contacto - DevFlex Solutions">
+                    
+                    <input type="hidden" name="_subject" value="New contact message - DevFlex Solutions">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
                     <input type="text" name="_honey" style="display:none">
 
                     <div class="form-group">
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre">Name</label>
                         <input type="text" id="nombre" name="nombre" required>
                     </div>
 
@@ -121,17 +149,17 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="proyecto">Describe tu proyecto</label>
+                        <label for="proyecto">Describe your project</label>
                         <textarea id="proyecto" name="proyecto" rows="5" required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
                 <iframe name="hidden_iframe" style="display:none;"></iframe>
             </div>
 
 
-        </section>
+        </section> -->
     </main>
 
     <footer>
@@ -140,7 +168,7 @@
             <a href="https://www.linkedin.com/" aria-label="LinkedIn">💼</a>
             <a href="https://github.com/srhustle" aria-label="GitHub">⚡</a>
         </div>
-        <p>&copy; 2025 DevFlex Solutions. Todos los derechos reservados.</p>
+        <p>&copy; 2025 DevFlex Solutions. All rights reserved.</p>
     </footer>
     <script src="js/js.js"></script>
 </body>

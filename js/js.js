@@ -55,22 +55,25 @@ window.addEventListener('scroll', () => {
 });
 
 // Form submission - sends to FormSubmit via hidden iframe
-document.querySelector('.contact-form').addEventListener('submit', function () {
-    // NO e.preventDefault() - the form must submit to FormSubmit
-    const button = this.querySelector('button');
-    const originalText = button.textContent;
-    button.textContent = 'Mensaje Enviado ✓';
-    button.style.background = '#10b981';
-    button.disabled = true;
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function () {
+        // NO e.preventDefault() - the form must submit to FormSubmit
+        const button = this.querySelector('button');
+        const originalText = button.textContent;
+        button.textContent = 'Message Sent ✓';
+        button.style.background = '#10b981';
+        button.disabled = true;
 
-    const form = this;
-    setTimeout(() => {
-        button.textContent = originalText;
-        button.style.background = '';
-        button.disabled = false;
-        form.reset();
-    }, 3000);
-});
+        const form = this;
+        setTimeout(() => {
+            button.textContent = originalText;
+            button.style.background = '';
+            button.disabled = false;
+            form.reset();
+        }, 3000);
+    });
+}
 
 // Cargar servicios dinámicamente
 async function loadServices() {
@@ -93,7 +96,7 @@ async function loadServices() {
             observer.observe(card); // Muy importante: reactivar la animación al hacer scroll para estas tarjetas
         });
     } catch (error) {
-        console.error('Error al cargar los servicios:', error);
+        console.error('Error loading services:', error);
     }
 }
 
@@ -102,9 +105,13 @@ async function loadProducts() {
     try {
         const response = await fetch('data/productos.json');
         const products = await response.json();
-        const container = document.getElementById('products-container');
-        
-        if (!container) return;
+
+        // Contenedores por categoría
+        const containers = {
+            'digital': document.getElementById('products-digital'),
+            'microservices': document.getElementById('products-microservices'),
+            'apps': document.getElementById('products-apps')
+        };
 
         products.forEach(product => {
             const div = document.createElement('div');
@@ -159,11 +166,15 @@ async function loadProducts() {
                 `;
             }
 
-            container.appendChild(div);
-            observer.observe(div); // Reactivar la animación
+            const category = product.category || 'digital';
+            const targetContainer = containers[category];
+            if (targetContainer) {
+                targetContainer.appendChild(div);
+                observer.observe(div); // Reactivar la animación
+            }
         });
     } catch (error) {
-        console.error('Error al cargar los productos:', error);
+        console.error('Error loading products:', error);
     }
 }
 
