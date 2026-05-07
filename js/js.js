@@ -4,12 +4,18 @@ const navLinks = document.querySelector('.nav-links');
 
 menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active');
+    menuToggle.classList.toggle('active');
 });
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
+
+        // Cerrar el menú móvil al hacer clic en un enlace
+        navLinks.classList.remove('active');
+        menuToggle.classList.remove('active');
+
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
             target.scrollIntoView({
