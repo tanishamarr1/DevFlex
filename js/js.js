@@ -110,7 +110,8 @@ async function loadProducts() {
         const containers = {
             'digital': document.getElementById('products-digital'),
             'microservices': document.getElementById('products-microservices'),
-            'apps': document.getElementById('products-apps')
+            'apps': document.getElementById('products-apps'),
+            'workflow-automations': document.getElementById('products-workflow-automations')
         };
 
         products.forEach(product => {

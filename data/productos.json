@@ -22,5 +22,13 @@
     "title": "Coming Soon",
     "description": "We are developing innovative new products that will transform your digital experience.",
     "action": { "text": "Notify Me", "link": "contact.html" }
+  },
+  {
+    "category": "workflow-automations",
+    "type": "coming-soon",
+    "icon": "🚀",
+    "title": "Coming Soon",
+    "description": "We are developing innovative new products that will transform your digital experience.",
+    "action": { "text": "Notify Me", "link": "contact.html" }
   }
 ]
