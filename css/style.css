@@ -55,6 +55,11 @@
             gap: 0.5rem;
         }
 
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+
         .logo::before {
             content: '</>';
             color: var(--primary-color);

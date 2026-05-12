@@ -1,20 +1,15 @@
-// Mobile menu toggle
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    menuToggle.classList.toggle('active');
-});
+let menuToggle 
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
+        // Mobile menu toggle
+        
+        const navLinks = document.querySelector('.nav-links');
         // Cerrar el menú móvil al hacer clic en un enlace
-        navLinks.classList.remove('active');
-        menuToggle.classList.remove('active');
+        navLinks?.classList.remove('active');
+        menuToggle?.classList.remove('active');
 
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
@@ -183,4 +178,42 @@ async function loadProducts() {
 document.addEventListener('DOMContentLoaded', () => {
     loadServices();
     loadProducts();
+    document.querySelector('#navbar').innerHTML = navBar;
+    document.querySelector('#footer').innerHTML = footer;
+
+
+    menuToggle= document.querySelector('.menu-toggle');
+
+    // Attach the event listener after the element has been injected and queried
+    menuToggle?.addEventListener('click', () => {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks?.classList.toggle('active');
+        menuToggle?.classList.toggle('active');
+    });
 });
+
+const navBar =`<nav>
+            <div class="logo"><a href="index.html#inicio">DevFlex</a></div>
+            <ul class="nav-links">
+                <!-- Los enlaces ahora apuntan al index.html para regresar a la página principal -->
+                <li><a href="index.html#inicio">Home</a></li>
+                <li><a href="index.html#productos">Products</a></li>
+                <li><a href="index.html#servicios">Services</a></li>
+                <li><a href="index.html#nosotros">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>`
+
+const footer = `<footer>
+        <div class="social-links">
+            <a href="https://instagram.com/devflex__" aria-label="Instagram"><img src="assets/instagram.png" width="30px" alt=""></a>
+            <a href="https://www.linkedin.com/in/carlos-nu%C3%B1ez-b21421285/" aria-label="LinkedIn"><img src="assets/linkedin.png" width="30px" alt=""></a>
+            <a href="https://github.com/srhustle" aria-label="GitHub"><img src="assets/github.png" width="30px" alt=""></a>
+        </div>
+        <p>&copy; 2025 DevFlex Solutions. All rights reserved.</p>
+    </footer>`;
