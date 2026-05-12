@@ -25,10 +25,37 @@
   },
   {
     "category": "workflow-automations",
-    "type": "coming-soon",
-    "icon": "🚀",
-    "title": "Coming Soon",
-    "description": "We are developing innovative new products that will transform your digital experience.",
-    "action": { "text": "Notify Me", "link": "contact.html" }
+    "type": "featured",
+    "icon": "💬",
+    "title": "WhatsApp Workflow Automation",
+    "badge": "High ROI",
+    "subtitle": "Automate your customer communication instantly",
+    "description": "Streamline your business operations by automating WhatsApp interactions. Handle customer inquiries, send automated updates, and route messages to the right team members 24/7 without manual intervention.",
+    "features": [
+      {
+        "icon": "⚡",
+        "title": "Instant Auto-Replies",
+        "description": "Engage customers instantly with smart, context-aware automated responses."
+      },
+      {
+        "icon": "🤖",
+        "title": "AI Integration",
+        "description": "Resolve common queries automatically using intelligent custom AI chatbots."
+      },
+      {
+        "icon": "📅",
+        "title": "Automated Scheduling",
+        "description": "Allow clients to book appointments directly through WhatsApp conversations."
+      },
+      {
+        "icon": "📊",
+        "title": "CRM Synchronization",
+        "description": "Automatically log conversations and update lead statuses in your CRM."
+      }
+    ],
+    "primaryAction": {
+      "text": "Start Automating",
+      "link": "contact.html"
+    }
   }
 ]
