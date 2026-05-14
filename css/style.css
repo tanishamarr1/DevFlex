@@ -149,7 +149,7 @@
 
         .hero-content {
             text-align: center;
-            max-width: 800px;
+            max-width: 100%;
             padding: 0 2rem;
             z-index: 2;
             position: relative;
@@ -158,6 +158,9 @@
         .hero h1 {
             font-size: 4rem;
             font-weight: 900;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            word-spacing: 0.1em;
             margin-bottom: 1.5rem;
             background: var(--gradient-primary);
             -webkit-background-clip: text;

@@ -26,59 +26,8 @@
 </head>
 
 <body>
-    <header>
-        <div id="navbar"></div>
-    </header>
-
-    <main>
-        <!-- Añadimos un padding-top extra para que el header fijo no tape el título -->
-        <section id="contacto" class="contact" style="padding-top: 10rem; min-height: calc(100vh - 150px);">
-            <div class="contact-container">
-                <h2 class="section-title">Join Our Referral Program</h2>
-                <p class="section-subtitle">Introduce us to your connections and earn rewards for every successful project we build together.</p>
-
-                <form class="contact-form animate-on-scroll" action="https://formsubmit.co/enmanuel02bnunez@gmail.com"
-                    method="POST" target="hidden_iframe">
-                    <!-- FormSubmit configuration -->
-                    <input type="hidden" name="_subject" value="New Referral Submission - DevFlex Solutions">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_template" value="table">
-                    <input type="text" name="_honey" style="display:none">
-
-                    <div class="form-group">
-                        <label for="nombre">Your Name</label>
-                        <input type="text" id="nombre" name="nombre" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Your Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="cliente">Referred Client or Business Name</label>
-                        <input type="text" id="cliente" name="cliente" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="contacto_cliente">Client Contact Info (Email or Phone)</label>
-                        <input type="text" id="contacto_cliente" name="contacto_cliente" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="mensaje">Project Details & Additional Info</label>
-                        <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Tell us a bit about what they want to build and how you know them..."></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Submit Referral</button>
-                </form>
-                <iframe name="hidden_iframe" style="display:none;"></iframe>
-            </div>
-        </section>
-    </main>
-
-    <div id="footer"></div>
-    <script src="js/js.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/refercontact.jsx"></script>
 </body>
 
 </html>

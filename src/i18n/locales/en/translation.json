@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Stop Wasting Time on Manual Tasks.",
+    "title2": "Scale Faster with Smart Software.",
+    "subtitle": "We build custom AI chatbots, workflow automations, and full-stack scalable applications/software designed to eliminate bottlenecks, increase your sales, and put your business on autopilot.",
+    "start": "Start Project",
+    "view_products": "Automate my business"
+  },
+  "about": {
+    "title": "Innovation and Precision",
+    "p1": "At DevFlex Solutions, we specialize in creating avant-garde digital experiences that transform businesses. With our focus on innovation and precision, we help companies thrive in the ever-evolving digital landscape.",
+    "p2": "Our commitment is simple: to be your technological partner and work together on your big idea with all the dedication needed to make it a reality.",
+    "cta": "Work Together"
+  },
+  "cta": {
+    "get_in_touch": "Get in touch",
+    "want_to_work": "Want to work together?",
+    "p_work": "Whether you need an app built from scratch or help with an existing project, I can help make it happen.",
+    "get_started": "Get Started",
+    "referral_program": "Referral Program",
+    "turn_network": "Turn your network into earnings",
+    "p_referral": "Know someone who needs a custom app, website, or digital solution? Refer them to DevFlex and earn a generous commission for every successful project.",
+    "start_earning": "Start Earning"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Complete solutions designed to boost your business",
+    "categories": {
+      "digital": "Digital Products",
+      "microservices": "Microservices",
+      "apps": "Applications",
+      "workflow-automations": "Workflow Automations"
+    },
+    "items": [
+      {
+        "category": "digital",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Coming Soon",
+        "description": "We are developing innovative new products that will transform your digital experience.",
+        "action": { "text": "Notify Me", "link": "contact.html" }
+      },
+      {
+        "category": "microservices",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Coming Soon",
+        "description": "We are developing innovative new products that will transform your digital experience.",
+        "action": { "text": "Notify Me", "link": "contact.html" }
+      },
+      {
+        "category": "apps",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Coming Soon",
+        "description": "We are developing innovative new products that will transform your digital experience.",
+        "action": { "text": "Notify Me", "link": "contact.html" }
+      },
+      {
+        "category": "workflow-automations",
+        "type": "featured",
+        "icon": "💬",
+        "title": "WhatsApp Workflow Automation",
+        "badge": "High ROI",
+        "subtitle": "Automate your customer communication instantly",
+        "description": "Streamline your business operations by automating WhatsApp interactions. Handle customer inquiries, send automated updates, and route messages to the right team members 24/7 without manual intervention.",
+        "features": [
+          {
+            "icon": "⚡",
+            "title": "Instant Auto-Replies",
+            "description": "Engage customers instantly with smart, context-aware automated responses."
+          },
+          {
+            "icon": "🤖",
+            "title": "AI Integration",
+            "description": "Resolve common queries automatically using intelligent custom AI chatbots."
+          },
+          {
+            "icon": "📅",
+            "title": "Automated Scheduling",
+            "description": "Allow clients to book appointments directly through WhatsApp conversations."
+          },
+          {
+            "icon": "📊",
+            "title": "CRM Synchronization",
+            "description": "Automatically log conversations and update lead statuses in your CRM."
+          }
+        ],
+        "primaryAction": {
+          "text": "Start Automating",
+          "link": "contact.html"
+        }
+      },
+      {
+        "category": "workflow-automations",
+        "type": "featured",
+        "icon": "📧",
+        "title": "Smart Email Order Organizer",
+        "badge": "Efficiency Boost",
+        "subtitle": "Transform your inbox into an automated sales machine",
+        "description": "Tired of losing orders in a cluttered inbox? Our AI-driven organizer automatically detects, extracts, and categorizes orders from your emails, syncing them directly to your fulfillment system or spreadsheet in real-time.",
+        "features": [
+          {
+            "icon": "🧠",
+            "title": "AI Extraction",
+            "description": "Automatically identifies order details like items, quantities, and customer info."
+          },
+          {
+            "icon": "🔄",
+            "title": "Real-time Sync",
+            "description": "Instantly updates your Google Sheets, CRM, or Database."
+          },
+          {
+            "icon": "🏷️",
+            "title": "Automatic Labeling",
+            "description": "Keeps your inbox clean and organized with custom status tags."
+          },
+          {
+            "icon": "🔔",
+            "title": "Instant Notifications",
+            "description": "Alerts your team the moment a high-priority order arrives."
+          }
+        ],
+        "primaryAction": {
+          "text": "Automate My Orders",
+          "link": "contact.html"
+        }
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Technological solutions that propel your business into the future",
+    "items": [
+      {
+        "icon": "💻",
+        "title": "Full-Stack Web Development",
+        "description": "Complete web applications with modern technologies and scalable architecture for your business growth."
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile Applications",
+        "description": "Native and cross-platform apps that offer exceptional experiences on iOS and Android."
+      },
+      {
+        "icon": "🤖",
+        "title": "AI Solutions",
+        "description": "Intelligent chatbots and AI automation to optimize processes and improve customer service."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Reach out for collaborations, build your product from scratch, extra information about our products, or any other business inquiries.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message_label": "Type here all the information.",
+      "message_placeholder": "How can we help you?",
+      "submit": "Send Message",
+      "success": "Message Sent ✓"
+    }
+  },
+  "referral": {
+    "title": "Join Our Referral Program",
+    "subtitle": "Introduce us to your connections and earn rewards for every successful project we build together.",
+    "form": {
+      "your_name": "Your Name",
+      "your_email": "Your Email",
+      "client_name": "Referred Client or Business Name",
+      "client_contact": "Client Contact Info (Email or Phone)",
+      "project_details": "Project Details & Additional Info",
+      "project_placeholder": "Tell us a bit about what they want to build and how you know them...",
+      "submit": "Submit Referral",
+      "success": "Referral Sent ✓"
+    }
+  }
+}

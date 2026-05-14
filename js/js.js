@@ -176,10 +176,24 @@ async function loadProducts() {
 
 // Inicializar carga dinámica cuando el documento esté listo
 document.addEventListener('DOMContentLoaded', () => {
-    loadServices();
-    loadProducts();
-    document.querySelector('#navbar').innerHTML = navBar;
-    document.querySelector('#footer').innerHTML = footer;
+    // Solo ejecutar carga dinámica si los elementos existen (páginas que no son React)
+    const servicesGrid = document.getElementById('services-grid');
+    const productsDigital = document.getElementById('products-digital');
+    const navbar = document.querySelector('#navbar');
+    const footerElem = document.querySelector('#footer');
+
+    if (servicesGrid && !servicesGrid.closest('#root')) {
+        loadServices();
+    }
+    if (productsDigital && !productsDigital.closest('#root')) {
+        loadProducts();
+    }
+    if (navbar && !navbar.closest('#root')) {
+        navbar.innerHTML = navBar;
+    }
+    if (footerElem && !footerElem.closest('#root')) {
+        footerElem.innerHTML = footer;
+    }
 
 
     menuToggle= document.querySelector('.menu-toggle');

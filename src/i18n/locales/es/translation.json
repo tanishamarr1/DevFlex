@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Deja de Perder Tiempo en Tareas Manuales.",
+    "title2": "Escala más Rápido con Software Inteligente.",
+    "subtitle": "Construimos chatbots con IA, automatizaciones y aplicaciones/software a medida y escalables diseñadas para eliminar cuellos de botella, aumentar tus ventas y poner tu negocio en piloto automático.",
+    "start": "Automatizar mi negocio",
+    "view_products": "Ver Productos"
+  },
+  "about": {
+    "title": "Innovación y Precisión",
+    "p1": "En DevFlex Solutions, nos especializamos en crear experiencias digitales de vanguardia que transforman negocios. Con nuestro enfoque en la innovación y la precisión, ayudamos a las empresas a prosperar en el panorama digital en constante evolución.",
+    "p2": "Nuestro compromiso es simple: ser tu socio tecnológico y trabajar juntos en tu gran idea con toda la dedicación necesaria para hacerla realidad.",
+    "cta": "Trabajemos Juntos"
+  },
+  "cta": {
+    "get_in_touch": "Ponte en contacto",
+    "want_to_work": "¿Quieres trabajar con nosotros?",
+    "p_work": "Ya sea que necesites una aplicación desde cero o ayuda con un proyecto existente, puedo ayudarte a hacerlo realidad.",
+    "get_started": "Empezar",
+    "referral_program": "Programa de Referidos",
+    "turn_network": "Convierte tu red en ganancias",
+    "p_referral": "¿Conoces a alguien que necesite una aplicación personalizada, un sitio web o una solución digital? Refiérelos a DevFlex y gana una generosa comisión por cada proyecto exitoso.",
+    "start_earning": "Empieza a Ganar"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "products": {
+    "title": "Productos",
+    "subtitle": "Soluciones completas diseñadas para potenciar tu negocio",
+    "categories": {
+      "digital": "Productos Digitales",
+      "microservices": "Microservicios",
+      "apps": "Aplicaciones",
+      "workflow-automations": "Automatización de Flujos"
+    },
+    "items": [
+      {
+        "category": "digital",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Próximamente",
+        "description": "Estamos desarrollando nuevos productos innovadores que transformarán tu experiencia digital.",
+        "action": { "text": "Notificarme", "link": "contact.html" }
+      },
+      {
+        "category": "microservices",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Próximamente",
+        "description": "Estamos desarrollando nuevos productos innovadores que transformarán tu experiencia digital.",
+        "action": { "text": "Notificarme", "link": "contact.html" }
+      },
+      {
+        "category": "apps",
+        "type": "coming-soon",
+        "icon": "🚀",
+        "title": "Próximamente",
+        "description": "Estamos desarrollando nuevos productos innovadores que transformarán tu experiencia digital.",
+        "action": { "text": "Notificarme", "link": "contact.html" }
+      },
+      {
+        "category": "workflow-automations",
+        "type": "featured",
+        "icon": "💬",
+        "title": "Automatización de WhatsApp",
+        "badge": "Alto ROI",
+        "subtitle": "Automatiza la comunicación con tus clientes al instante",
+        "description": "Optimiza las operaciones de tu negocio automatizando las interacciones de WhatsApp. Gestiona consultas de clientes, envía actualizaciones automáticas y dirige mensajes al equipo adecuado las 24 horas del día, los 7 días de la semana, sin intervención manual.",
+        "features": [
+          {
+            "icon": "⚡",
+            "title": "Respuestas Automáticas",
+            "description": "Interactúa con los clientes al instante con respuestas automáticas inteligentes y contextuales."
+          },
+          {
+            "icon": "🤖",
+            "title": "Integración de IA",
+            "description": "Resuelve consultas comunes automáticamente utilizando chatbots de IA personalizados e inteligentes."
+          },
+          {
+            "icon": "📅",
+            "title": "Programación Automática",
+            "description": "Permite que los clientes reserven citas directamente a través de conversaciones de WhatsApp."
+          },
+          {
+            "icon": "📊",
+            "title": "Sincronización con CRM",
+            "description": "Registra automáticamente las conversaciones y actualiza el estado de los clientes potenciales en tu CRM."
+          }
+        ],
+        "primaryAction": {
+          "text": "Empezar a Automatizar",
+          "link": "contact.html"
+        }
+      },
+      {
+        "category": "workflow-automations",
+        "type": "featured",
+        "icon": "📧",
+        "title": "Organizador Inteligente de Pedidos por Email",
+        "badge": "Ahorro de Tiempo",
+        "subtitle": "Transforma tu bandeja de entrada en una máquina de ventas automatizada",
+        "description": "¿Cansado de perder pedidos en una bandeja de entrada saturada? Nuestro organizador impulsado por IA detecta, extrae y categoriza automáticamente los pedidos de tus correos, sincronizándolos directamente con tu sistema de gestión o hoja de cálculo en tiempo real.",
+        "features": [
+          {
+            "icon": "🧠",
+            "title": "Extracción por IA",
+            "description": "Identifica automáticamente detalles del pedido como artículos, cantidades e información del cliente."
+          },
+          {
+            "icon": "🔄",
+            "title": "Sincronización en Tiempo Real",
+            "description": "Actualiza instantáneamente tus Google Sheets, CRM o Base de Datos."
+          },
+          {
+            "icon": "🏷️",
+            "title": "Etiquetado Automático",
+            "description": "Mantiene tu bandeja de entrada limpia y organizada con etiquetas de estado personalizadas."
+          },
+          {
+            "icon": "🔔",
+            "title": "Notificaciones Instantáneas",
+            "description": "Alerta a tu equipo en el momento en que llega un pedido de alta prioridad."
+          }
+        ],
+        "primaryAction": {
+          "text": "Automatizar mis Pedidos",
+          "link": "contact.html"
+        }
+      }
+    ]
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones tecnológicas que impulsan tu negocio hacia el futuro",
+    "items": [
+      {
+        "icon": "💻",
+        "title": "Desarrollo Web Full-Stack",
+        "description": "Aplicaciones web completas con tecnologías modernas y arquitectura escalable para el crecimiento de tu negocio."
+      },
+      {
+        "icon": "📱",
+        "title": "Aplicaciones Móviles",
+        "description": "Aplicaciones nativas y multiplataforma que ofrecen experiencias excepcionales en iOS y Android."
+      },
+      {
+        "icon": "🤖",
+        "title": "Soluciones de IA",
+        "description": "Chatbots inteligentes y automatización con IA para optimizar procesos y mejorar el servicio al cliente."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Conectemos",
+    "subtitle": "Contáctanos para colaboraciones, construir tu producto desde cero, información extra sobre nuestros productos o cualquier otra consulta comercial.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "message_label": "Escribe aquí toda la información.",
+      "message_placeholder": "¿Cómo podemos ayudarte?",
+      "submit": "Enviar Mensaje",
+      "success": "Mensaje Enviado ✓"
+    }
+  },
+  "referral": {
+    "title": "Únete a nuestro Programa de Referidos",
+    "subtitle": "Preséntanos a tus contactos y gana recompensas por cada proyecto exitoso que construyamos juntos.",
+    "form": {
+      "your_name": "Tu Nombre",
+      "your_email": "Tu Correo Electrónico",
+      "client_name": "Nombre del Cliente o Empresa Referida",
+      "client_contact": "Información de Contacto del Cliente (Email o Teléfono)",
+      "project_details": "Detalles del Proyecto e Información Adicional",
+      "project_placeholder": "Cuéntanos un poco sobre lo que quieren construir y cómo los conoces...",
+      "submit": "Enviar Referido",
+      "success": "Referido Enviado ✓"
+    }
+  }
+}
